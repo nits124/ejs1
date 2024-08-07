@@ -1,0 +1,13 @@
+<%- include("includes/head.ejs")%>
+<body>
+    this is <%= username %>
+    <ul>
+        <% for (let name of followers) {%>
+            <li>
+                <%= name %>
+            </li>
+            <% } %>
+    </ul>
+</body>
+
+</html>
